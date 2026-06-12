@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <body>
+    <section id="NavBar-Section">
+    <section id="navbar">
+      <div id="logo">
+        <img src="laundry-logo.jpg" alt="" srcset="" />
+      </div>
+      <div id="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#service-section">service</a>
+        <a href="#About-us">About</a>
+        <a href="#Contact">Contact Us</a>
+      </div>
+      <div class="btn">
+        <button>Username</button>
+      </div>
+    </section>
+    <section id="hero">
+      <div class="hero-text">
+        <h1 class="black-color">
+          Revitalize Your <br />
+          Clothes with expert
+        </h1>
+        <h2 class="blue-color">Laundry Services</h2>
+        <p class="hero-para">
+          From premium dry cleaning to swift wash and fold,we deliver care and
+          convenience. schedule a pickup and redscover the freshness of your
+          clothes today!
+        </p>
+        <button class="hero-btn" onclick="document.getElementById('service-section').scrollIntoView({behavior: 'smooth'});"><i class="fa-solid fa-shop"></i>Book Service Today</button>
+  
+      </div>
+      <div class="hero-image">
+        <img src="laundry-hero-img.avif" alt="" />
+      </div>
+    </section>
+   <section id="footer">
+    <div class="achievement-title">
+        <h1>Our Achievements</h1>
+    </div>
+
+    <div class="Ach-list">
+        <div class="ach-item">
+            <h2>15+</h2>
+            <p>Laundry Services</p>
+        </div>
+
+        <div class="ach-item">
+            <h2>240+</h2>
+            <p>Happy Customers</p>
+        </div>
+
+        <div class="ach-item">
+            <h2>2+ Yrs</h2>
+            <p>Experience</p>
+        </div>
+    </div>
+</section>
+</section>
+
+
+
+<section id="service-section">
+<div class="leftSection">
+  <div class="service-title">
+    <h1>Our Services</h1>
+    <p>Click On The Add To Cart Button To Book Your Service</p>
+</div>
+<hr>
+<div class="service-list">
+    <div class="service-items">
+      <span class="item-name"><i class="fa-solid fa-shirt"></i>dry cleaning</span>
+      <span class="item-price">₹ 200</span>
+      <button id="add-remove-btn" class="item-btn">Add item</button>
+    </div>
+    <div class="service-items">
+      <span class="item-name"><i class="fa-solid fa-hands-bubbles"></i>Wash</span>
+      <span class="item-price">₹ 100</span>
+      <button id="add-remove-btn" class="item-btn">Add item</button>
+    </div>
+    <div class="service-items">
+      <span class="item-name"><i class="fa-solid fa-suitcase"></i>Iron</span>
+      <span class="item-price">₹ 30</span>
+      <button id="add-remove-btn" class="item-btn">Add item</button>
+    </div>
+    <div class="service-items">
+      <span class="item-name"><i class="fa-solid fa-jug-detergent"></i>Stain</span>
+      <span class="item-price">₹ 500</span>
+      <button id="add-remove-btn" class="item-btn">Add item</button>
+    </div>
+    <div class="service-items">
+      <span class="item-name"><i class="fa-brands fa-black-tie fa-solid"></i>Leather Suede Clean</span>
+      <span class="item-price">₹ 1099</span>
+      <button id="add-remove-btn" class="item-btn">Add item</button>
+    </div>
+    <div class="service-items">
+      <span class="item-name"><i class="fa-solid fa-person-half-dress"></i>Wedding dress</span>
+      <span class="item-price">₹ 1500</span>
+      <button id="add-remove-btn" class="item-btn">Add item</button>
+    </div>
+</div>
+<hr>
+<div class="service-item-link">
+  <span><i class="fa-solid fa-circle-exclamation"></i>Add the items to the cart and book now</span>
+</div>
+</div>
+
+
+<div class="rightSection">
+  <div class="addedItems">
+<h1 class="addeditemTitle">Added Items</h1>
+    <table id="">
+  <thead>
+     <tr>
+        <th>S.No</th>
+        <th>Service Name</th>
+        <th>Price</th>
+      </tr>
+  </thead>
+     
+    <tbody id="table-body">
+
+
+      </tbody>
+    </table>
+    
+    <div id="total-price">
+      <span>Total</span>
+      <span>₹ 0</span>
+    </div>
+  </div>
+  <div class="BookNow">
+      <h1 class="bookTitle">Book Now</h1>
+    <div class="customername">
+       <label  for="name">Full Name</label><br>
+  <input type="text" id="name" placeholder="Enter Your Full Name">
+    </div>
+   <div class="customerEP">
+    <div>
+    <label for="email">Email ID</label>
+  <input type="email" id="email" placeholder="Enter Your Email ID"> 
+  </div>
+  <div>
+  <label for="phone">Phone Number</label>
+  <input type="tel" id="phone" placeholder="Enter Your Phone No">
+  </div>
+   </div>
+   <div class="book-button">
+     <button id="book-button" class="book-btn">Book Now</button>
+   </div>
+  </div>
+</div>
+</section>
+
+
+
+  <section id="service-quality">
+   <div class="service-item">
+    <div class="service-icon"><i class="fa-solid fa-shirt"></i></div>
+    <h3>Premium Service</h3>
+    <p>We provide high-quality washing, dry cleaning, and garment care services to keep your clothes fresh, spotless, and looking like new.</p>
+   </div>
+    <div class="service-item">
+        <div class="service-icon">
+            <i class="fa-solid fa-headset"></i>
+        </div>
+        <h3>Quick Support</h3>
+        <p>Our support team is always available to assist you with queries and ensure a smooth experience.</p>
+    </div>
+
+    <div class="service-item">
+        <div class="service-icon">
+            <i class="fa-solid fa-truck-fast"></i>
+        </div>
+        <h3>Hassle Free Delivery</h3>
+        <p>Enjoy convenient pickup and doorstep delivery services according to your schedule.</p>
+    </div>
+
+    <div class="service-item">
+        <div class="service-icon">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+        </div>
+        <h3>Affordable Prices</h3>
+        <p>Professional laundry services at competitive prices without compromising quality.</p>
+    </div>
+
+  </section>
+
+<section id="Newletter">
+  <div class="newsletter-title">
+     <h1>Subscribe to Our Newsletter</h1>
+  </div>
+  <div class="newsletterForm">
+    <div class="newsletterinputtext">
+       <input type="text" placeholder="Full Name">
+    <input type="email" placeholder="Email Address">
+    </div>
+    <div class="newlttersubbtn"><button class="subscribe-btn">Subscribe</button></div>
+  </div>
+</section>
+
+<footer>
+<div id="About-us" class="about">
+    <img src="laundry-logo.jpg" alt="Laundry Logo">
+  
+  <h3>About Us</h3>
+  <p>We are a leading laundry service provider dedicated to delivering exceptional care and convenience for your clothes. </p>
+</div>
+<div class="important-link">
+  <h3>Important Links</h3>
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#service-section">Services</a></li>
+    <li><a href="#About-us">About Us</a></li>
+    <li><a href="#Contact">Contact Us</a></li>
+  </ul>
+</div>
+<div id="Contact" class="contact-info">
+  <h3>Contact</h3>
+  <p>laundry@gmail.com</p>
+  <p>+91 1234567890</p>
+</div>
+<div class="follow-us">
+  <h3>Follow Us</h3>
+  <div class="social-icons">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+</div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+     (function(){
+        emailjs.init({
+          publicKey: "ylwJtGBOSMPY7Qhu3", // ⚠️ Replace with your actual EmailJS Public Key
+        });
+     })();
+  </script>
+
+<script src="script.js"></script>
+  </body>
+</html>
